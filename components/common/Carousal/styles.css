@@ -1,0 +1,44 @@
+.slick-dots {
+  bottom: -30px;
+  padding-right: 20px;
+}
+
+.slick-dots li button {
+  background: #ddd;
+  border: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.slick-dots li.slick-active button {
+  background: #1d4ed8;
+}
+
+.slick-dots li.slick-active button:before {
+  display: none;
+}
+
+.slick-dots li button:before {
+  display: none;
+}
+
+.slick-next:before {
+  display: none;
+}
+
+.slick-prev:before {
+  display: none;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-x-180 {
+  transform: rotateX(180deg);
+}
